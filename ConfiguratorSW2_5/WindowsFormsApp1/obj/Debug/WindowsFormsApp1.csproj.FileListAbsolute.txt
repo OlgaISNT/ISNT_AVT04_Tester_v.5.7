@@ -1,0 +1,253 @@
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\LibUsbDotNet.xml
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\o.soloveva\Itelma\Cherry_stand_v2.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.4_etalon\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.4_etalon\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.4_etalon\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.4_etalon\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\LibUsbDotNet.xml
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.4_etalon\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.4_etalon\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.4_etalon\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.4_etalon\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.4_etalon\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.4_etalon\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.4_etalon\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+c:\Users\o.soloveva\Itelma\Cherry_stand_v2.4_etalon\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Public\olga\Cherry_stand_v2.6\Cherry_stand_v2.6\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Public\olga\Cherry_stand_v2.6\Cherry_stand_v2.6\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Public\olga\Cherry_stand_v2.6\Cherry_stand_v2.6\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Public\olga\Cherry_stand_v2.6\Cherry_stand_v2.6\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\LibUsbDotNet.xml
+C:\Users\Public\olga\Cherry_stand_v2.6\Cherry_stand_v2.6\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Public\olga\Cherry_stand_v2.6\Cherry_stand_v2.6\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Public\olga\Cherry_stand_v2.6\Cherry_stand_v2.6\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Public\olga\Cherry_stand_v2.6\Cherry_stand_v2.6\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Public\olga\Cherry_stand_v2.6\Cherry_stand_v2.6\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Public\olga\Cherry_stand_v2.6\Cherry_stand_v2.6\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Public\olga\Cherry_stand_v2.6\Cherry_stand_v2.6\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\Public\olga\Cherry_stand_v2.6\Cherry_stand_v2.6\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Public\olga\Cherry_stand_v2.6\Cherry_stand_v2.6\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.7\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.7\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.7\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.7\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\LibUsbDotNet.xml
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.7\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.7\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.7\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.7\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.7\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.7\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.7\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.7\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\LibUsbDotNet.xml
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+c:\Users\o.soloveva\Itelma\Cherry\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\LibUsbDotNet.xml
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\LibUsbDotNet.xml
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\olgas\projects\chery\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\LibUsbDotNet.xml
+C:\Users\olgas\projects\chery\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\olgas\projects\chery\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\olgas\projects\chery\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\olgas\projects\chery\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\olgas\projects\chery\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\olgas\projects\chery\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\olgas\projects\chery\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2_2102\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2_2102\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2_2102\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2_2102\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\LibUsbDotNet.xml
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2_2102\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2_2102\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2_2102\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2_2102\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2_2102\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2_2102\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2_2102\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.4_v2_2102\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.6_v2_2802\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.6_v2_2802\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.6_v2_2802\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.6_v2_2802\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.6_v2_2802\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.6_v2_2802\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.6_v2_2802\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.6_v2_2802\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.6_v2_2802\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.6_v2_2802\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.6_v2_2802\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\LibUsbDotNet.xml
+C:\Users\olgas\projects\chery\Cherry_stand_v2.79.6_v2_2802\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\olgas\projects\chery\ISNT_stand_v2.79.5_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\olgas\projects\chery\ISNT_stand_v2.79.5_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ISNT_stand_v2.79.5_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ISNT_stand_v2.79.5_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\LibUsbDotNet.xml
+C:\Users\olgas\projects\chery\ISNT_stand_v2.79.5_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\olgas\projects\chery\ISNT_stand_v2.79.5_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\olgas\projects\chery\ISNT_stand_v2.79.5_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\olgas\projects\chery\ISNT_stand_v2.79.5_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\olgas\projects\chery\ISNT_stand_v2.79.5_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\olgas\projects\chery\ISNT_stand_v2.79.5_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\olgas\projects\chery\ISNT_stand_v2.79.5_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ISNT_stand_v2.79.5_v2\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\LibUsbDotNet.xml
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\LibUsbDotNet.xml
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ISNT_Tester_v.3.3\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.0\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.0\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.0\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.0\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\LibUsbDotNet.xml
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.0\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.0\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.0\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.0\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.0\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.0\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.0\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.0\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\LibUsbDotNet.xml
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.4.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\LibUsbDotNet.xml
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_3\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_3\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_3\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_3\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_3\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_3\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_3\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_3\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_3\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_3\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_3\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\LibUsbDotNet.xml
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_3\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_rev1_git\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_rev1_git\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_rev1_git\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_rev1_git\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\LibUsbDotNet.xml
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_rev1_git\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_rev1_git\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_rev1_git\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_rev1_git\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_rev1_git\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_rev1_git\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_rev1_git\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.1_rev1_git\Cherry_Project FreeRTOS\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.5_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.5_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.5_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.5_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\LibUsbDotNet.xml
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.5_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.5_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.5_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.5_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.5_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.5_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.5_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.5_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.6_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.6_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.6_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.6_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.6_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.6_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.6_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.6_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.6_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.6_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.6_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\LibUsbDotNet.xml
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.6_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.7_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.7_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.7_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.7_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\bin\Debug\LibUsbDotNet.xml
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.7_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.7_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.7_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.7_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.7_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.7_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.7_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.7_git\Cherry_Project FreeRTOS\ConfiguratorSW2_5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

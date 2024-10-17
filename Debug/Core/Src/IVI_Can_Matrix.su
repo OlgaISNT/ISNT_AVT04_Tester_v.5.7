@@ -1,0 +1,7 @@
+IVI_Can_Matrix.c:86:9:ustrlen	24	static
+IVI_Can_Matrix.c:114:8:SearchStr	40	static
+IVI_Can_Matrix.c:145:7:Hex_Str	16	static
+IVI_Can_Matrix.c:150:7:Print_Loading	8	static
+IVI_Can_Matrix.c:163:7:RS232_Task	128	static
+IVI_Can_Matrix.c:231:8:Play_Audio	32	static
+IVI_Can_Matrix.c:258:15:InOutADC_Data	16	static

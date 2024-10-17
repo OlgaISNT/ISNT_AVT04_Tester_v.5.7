@@ -1,0 +1,3 @@
+uds.c:47:6:CAN_UDS_Request_Parse	32	static
+uds.c:226:10:CAN_UDS_Diagnostic_Send	40	static
+uds.c:315:11:IVI_Send_Diagnostic_Single_Response	48	static
