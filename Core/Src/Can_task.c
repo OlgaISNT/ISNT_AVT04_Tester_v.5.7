@@ -87,7 +87,7 @@ uint8_t  cmd_work_stand[]=
 uint8_t  cmd_next_block[]=
 "Next block ...\r\n";
 uint8_t  cmd_finished_block[]=
-"Finish testing ...\r\n";
+"\r\n\Finish testing ...\r\n\r\n";
 uint8_t  AVT_cmd_res[]=
 "AVT";
 //extern CAN_HandleTypeDef hcan1;
@@ -141,10 +141,14 @@ void Can_Task(void const * argument) {
 	/*  case Init_Test:
 		   memset(&Can_state.txbuf[0] , 0 , sizeof(Can_state.txbuf));
 		   memset(&Config , 0 , sizeof(Config));
-		   
+
 		break;*/
-		
+
 	case Start_Test:
+
+
+
+		Config.wdt_timer_start =  xTaskGetTickCount();
 
 		   memset(&fft_pResult, 0, sizeof(fft_pResult));
 	      	fft_pResult.mute_adc_off = InOutADC_Data(&hadc2, 2);
@@ -208,7 +212,7 @@ void Can_Task(void const * argument) {
 
 
 	     case  	Get_Microphone_ADC:
-	   //   if(CAN_UDS_Diagnostic_Req_Send(&message, OBD2_CMD_READ , P99_group , Get_Microphone_ADC,  3))    //0x6
+	   //  if(CAN_UDS_Diagnostic_Req_Send(&message, OBD2_CMD_READ , P99_group , Get_Microphone_ADC,  3))    //0x6
 	     	    	 	Can_state.state +=1;
 	     	    		   	    	 break;
 
@@ -217,7 +221,7 @@ void Can_Task(void const * argument) {
 	   	   	Can_state.state +=1;
 	   	 	 break;
 	     case  	Get_BATTERY_ADC :
-	     	   //	    if(CAN_UDS_Diagnostic_Req_Send(&message, OBD2_CMD_READ , P99_group , Get_BATTERY_ADC,  3))  // 0x8
+	     	//   	    if(CAN_UDS_Diagnostic_Req_Send(&message, OBD2_CMD_READ , P99_group , Get_BATTERY_ADC,  3))  // 0x8
 	     	 Can_state.state +=1;
 
 	     	   	   break;
@@ -257,7 +261,7 @@ void Can_Task(void const * argument) {
 			case Get_searching_networks:
 
 				memset(&Can_state.txbuf[0], 0, sizeof(Can_state.txbuf));
-				GSM_GPS_Get_Networks(TIMEOUT_40s, Check_number_networks);
+				GSM_GPS_Get_Networks(TIMEOUT_70s, Check_number_networks);
 
 				AVT_cmd_Send(AVT_GSM_Cmd);
 
@@ -293,7 +297,7 @@ void Can_Task(void const * argument) {
 
 			case Get_Sat:
 
-				if (Config.GNSS_fix == 0) {
+			if (Config.GNSS_fix == 0) {
 					GSM_GPS_Get_Networks(TIMEOUT_30s, Check_GNSS_fix);
 				}
 
@@ -318,7 +322,7 @@ void Can_Task(void const * argument) {
 				res = 0;
 				Can_state.num = 0;
 
-				Can_state.time = 6;
+				Can_state.time = 4;
 				//	fft_pResult.mute_adc =   	InOutADC_Data( &hadc2, 2);  //!!!!!mute
 				audio_routine_scan = xTaskGetTickCount();
 				do {
@@ -334,7 +338,7 @@ void Can_Task(void const * argument) {
 						< TIMEOUT_30s);
 
 				// Can_state.num += 100;
-
+				Power_Monitor();
 				ConsoleWrite(&cmd_play_audio[0], sizeof(cmd_play_audio));
 
 				vTaskDelay(TIMEOUT_1s);
@@ -360,26 +364,56 @@ void Can_Task(void const * argument) {
 
 
 				AVT_cmd_Send(AVT_Audio_Cmd);
-
-				//    }
+				Power_Monitor();
+				vTaskDelay(2000);
 				Can_state.state += 1;
 
 				break;
 
 			case Kl30_off:
 
-				if (CAN_UDS_Diagnostic_Req_Send(&message, OBD2_CMD_RESET, 0x62,
-						0x0, 2)) {
+
+				Config.wdt_timer =  xTaskGetTickCount() - Config.wdt_timer_start;
+							Config.wdt = check_wdt_timer();
+							if(    Config.wdt_timer < 103000){
+									vTaskDelay(1000);
+
+							}
+							else {
+								//Can_state.wdt = check_wdt_timer();
+							//	if(Can_state.wdt == true)
+									AVT_cmd_Send( AVT_Wdt);
+								//	ConsoleWrite(&cmd_work_start[0], sizeof(cmd_work_start));
+
+							if (CAN_UDS_Diagnostic_Req_Send(&message, OBD2_CMD_RESET, 0x62,
+									0x0, 2)) {
+								vTaskDelay(1000);
+							}
+
+
+
+
+
+
+
+
+
+
+
+
+			//	if (CAN_UDS_Diagnostic_Req_Send(&message, OBD2_CMD_RESET, 0x62,
+				//		0x0, 2)) {
 					vTaskDelay(1000);
+					Can_state.disable_test_mode = 1;
+
+								Can_state.start_test_cmd22 = 0;
+
+								ConsoleWrite(&cmd_work_start[0], sizeof(cmd_work_start));
+								Can_state.state = 0;
+
+								Init_Pins();
 				}
-				Can_state.disable_test_mode = 1;
 
-				Can_state.start_test_cmd22 = 0;
-
-				ConsoleWrite(&cmd_work_start[0], sizeof(cmd_work_start));
-				Can_state.state = 0;
-
-				Init_Pins();
 
 				break;
 			}
@@ -481,7 +515,7 @@ uint32_t CAN_UDS_Diagnostic_Req_Send(IsoTpMessage *message,
                             		  &&  (Can_state.state == Get_Microphone_Record)){
                                        message->payload[4] = 0x04;
                                        message->payload[5] = 0x04;
-                                       message->payload[6] = Can_state.time;
+                                       message->payload[6] = Can_state.time + 2;
                               }
                               if((arbitration_id == OBD2_CMD_ROUTINE)
                                   &&  (Can_state.state == Play_Microphone_Record)){
@@ -506,11 +540,14 @@ uint32_t CAN_UDS_Diagnostic_Req_Send(IsoTpMessage *message,
 
 			           response.completed  = false;
 			         //  while (response ->completed == false)
-			           for(int resp = 0 ; resp < 50; resp++)
+			           for(int resp = 0 ; resp < 30; resp++)
 			           {
 			        	//  if(Check_AVT04_Test()== false)
 			        	//	  return 0;
-			        	   Power_Monitor();
+			        	  if(Power_Monitor() == false)
+			        	  {
+			        		 Can_state.state = 0; res = 0; Init_Pins(); return res;
+			        	  }
 			             if(HAL_CAN_GetRxMessage(&hcan1, CAN_RX_FIFO0, &RxHeader, handle.data) == HAL_OK  )
 			           	              {
 			        	         if(CAN_UDS_Request_Parse (  message,   &handle ,  &request,
@@ -739,9 +776,10 @@ bool GPIO_IO_check(  uint8_t event , bool positive)
         		 if (CAN_UDS_Diagnostic_Req_Send(&message, OBD2_CMD_READ, P99_group,
         		 			        Get_Microphone_ADC, 3))
         		 {
-        			 if(Config.mic_adc > MIC_UDS_AVT04_OFF){
+        	    	 if(Config.mic_adc > MIC_UDS_AVT04_OFF){
         				 HAL_GPIO_WritePin( BUT_CUR_ON_Port,  BUT_CUR_ON, GPIO_PIN_SET);  // off
         				 vTaskDelay(1700);
+        			//	 vTaskDelay(3000);
         			 if (CAN_UDS_Diagnostic_Req_Send(&message, OBD2_CMD_READ, P99_group,
         			         		 			        Get_Microphone_ADC, 3))
         			 {
@@ -759,7 +797,7 @@ bool GPIO_IO_check(  uint8_t event , bool positive)
              {res = Validate_Config(Config.mic_adc, MIC_UDS_ISNT_MIN, MIC_UDS_ISNT_MAX);}
 	      //   res = false;
 			}
-
+			 else res = false;
 			break;
 
 
@@ -779,7 +817,8 @@ bool GPIO_IO_check(  uint8_t event , bool positive)
 
 			if(!digital_IO_state.io_sos_btn.sos_btn_in){
 			HAL_GPIO_WritePin(SOS_ON_Port, SOS_ON, GPIO_PIN_SET);   // ON
-						vTaskDelay(500);
+					vTaskDelay(500);
+		//	vTaskDelay(5000);
 
 
      	if (CAN_UDS_Diagnostic_Req_Send(&message, OBD2_CMD_READ, P99_group,
@@ -892,6 +931,7 @@ bool GPIO_IO_check(  uint8_t event , bool positive)
 
 				HAL_GPIO_WritePin(SPK_ON_Port, SPK_ON, GPIO_PIN_RESET);   // ON
 							vTaskDelay(500);
+				//vTaskDelay(3000);
 
 			if(!digital_IO_state.io_ign_btn.diag_spn_in){
 	    	if (CAN_UDS_Diagnostic_Req_Send(&message, OBD2_CMD_READ, P99_group,
@@ -1209,7 +1249,7 @@ void DefaultCFGx01(/*sys_config *cfg*/)
 
 	 	for(int test = 0 ; test <= 10; test ++)
 	 	{
-	 		Power_Monitor();
+	 	//	Power_Monitor();
 	 		//if(Can_state.start_test_cmd22 == false)   return false;
 	 		if(Check_AVT04_Test() == true){
 
@@ -1236,23 +1276,36 @@ void DefaultCFGx01(/*sys_config *cfg*/)
 		{
 			Can_state.power_is_on = true;
 			Can_state.power_up = true;
-			//Can_state.state = 0;
+			Can_state.state = 0;
 			ConsoleWrite (&cmd_next_block[0],    sizeof(cmd_next_block) );
+			 memset(&Can_state.txbuf[0] , 0 , sizeof(Can_state.txbuf));
 	//		Print_Loading();
 		//	Can_state.start_test_cmd22 = 1;
+			 return true;
 
 		}
 
 
 
-		if((Button_read()== false)   && (Can_state.power_is_on == true))
+		if((Button_read()== false)  /* && (Can_state.power_is_on == true)*/)
 				{
 			 			Can_state.power_is_on = false;
 			 			Can_state.power_up = false;
-			 			Can_state.state = 0;
-			 			Can_state.start_test_cmd22 = 0;
 			 			ConsoleWrite (&cmd_finished_block[0],    sizeof(cmd_finished_block) );
+			 			vTaskDelay(TIMEOUT_1s);
+			 		//	vTaskDelay(TIMEOUT_1s);
+			 			Can_state.state = 0;
+
+			 			Can_state.start_test_cmd22 = 0;
+
 			 			Init_Pins();
+
+			 			  MX_ADC1_Init();
+			 					    MX_ADC2_Init(ADC_CHANNEL_10);
+			 					    MX_ADC3_Init(ADC_CHANNEL_15);
+			 					    hdac.Instance = DAC;  //   TIM6_Config();
+
+			 			return false;
 			 		}
 	 		 return Can_state.power_is_on;
 	 	//	else return false;
@@ -1264,7 +1317,7 @@ void DefaultCFGx01(/*sys_config *cfg*/)
 			if(HAL_GPIO_ReadPin(BUTTON_ISNT_ON_Port, BUTTON_ISNT_ON) == GPIO_PIN_SET)
 					 return true;
 			else
-				return true;//false;
+				return false;
 
 
 	}
@@ -1295,6 +1348,7 @@ void DefaultCFGx01(/*sys_config *cfg*/)
 	{
 		uint32_t uOffs;
 		bool res;
+		memset(&Can_state.txbuf[0], 0, sizeof(Can_state.txbuf));
 		memcpy(&Can_state.txbuf[0], AVT_cmd_res, sizeof(AVT_cmd_res));
 		uOffs = 3;
 		uint32_t cmd_str= 0x30 +cmd;
@@ -1343,6 +1397,20 @@ void DefaultCFGx01(/*sys_config *cfg*/)
 			    ConsoleWrite (&Can_state.txbuf[0], uOffs);
 			    break;
 
+
+		case  AVT_Wdt :
+
+
+					memcpy(&Can_state.txbuf[uOffs], &Config.wdt, 1);
+					memcpy(&Can_state.txbuf[uOffs + 1], &Config.wdt_timer, 4);
+					uOffs += 5;
+					res =  ConsoleWrite (&Can_state.txbuf[0], uOffs);
+
+					   break;
+
+
+
+
 	}
 		return res;
 	}
@@ -1360,3 +1428,11 @@ void DefaultCFGx01(/*sys_config *cfg*/)
 	   }
 	}
 
+
+
+	bool check_wdt_timer()
+	{
+		  if(CAN_UDS_Diagnostic_Req_Send(&message, OBD2_CMD_READ , P99_group , Get_Who_Am_I_Accelerometer,  3))
+			  return true;
+		  else return false;
+		}

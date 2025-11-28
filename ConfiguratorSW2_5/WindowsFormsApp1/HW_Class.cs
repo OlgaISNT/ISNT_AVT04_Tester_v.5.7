@@ -48,8 +48,8 @@ namespace WindowsFormsApp1
             public const int H9 = 9;
             public const int H10 = 10;
             public const int P0 = 11;
-            public const int P0_min = 230;
-            public const int P0_max = 4000;
+            public const int P0_min = 100;//230;
+            public const int P0_max = 700;//4000;
             public const int B0 = 12;
             public const int B0_min = 1000;
             public const int G0 = 13;
@@ -71,6 +71,8 @@ namespace WindowsFormsApp1
             public const int SN0 = 21;
             public const int M1= 22;
             public const int B1 = 23;
+            public const int W0 = 24;
+            public const int SN1 = 26;
             public const string P0_s = "P0";
             public const string B0_s = "B0";
             public const string G0_s = "G0";
@@ -80,7 +82,8 @@ namespace WindowsFormsApp1
             public const string A0_s = "A0";
             public const string C0_s = "С0";
             public const string F0_s = "F0";
-            public const string S0_s = "S0";
+            public const string S0_s = "S0"; 
+            public const string W0_s = "W0";
             public const string SN0_s = "SN0";
             public const string M1_s = "M1";
             public const string B1_s = "B1";
@@ -177,13 +180,20 @@ namespace WindowsFormsApp1
                 HW.HW_error_state |= (1 << Error_Codes.S0);
         
             }
-          /*  if ((HW.mute_adc < state.Mute_Limit) &&  (set.Version == 0))     // 21
+            if (HW.wdt != 1)     // 20
             {
-               
-                textBox1.Text += Error_Codes.M1_s + Error_Codes.E_spase; ;
-                HW.HW_error_state |= (1 << 22);
 
-            }*/
+                textBox1.Text += Error_Codes.W0_s + Error_Codes.E_spase; ;
+                HW.HW_error_state |= (1 << Error_Codes.W0);
+
+            }
+            /*  if ((HW.mute_adc < state.Mute_Limit) &&  (set.Version == 0))     // 21
+              {
+
+                  textBox1.Text += Error_Codes.M1_s + Error_Codes.E_spase; ;
+                  HW.HW_error_state |= (1 << 22);
+
+              }*/
 
 
             if (set.Version == 0)
@@ -195,8 +205,14 @@ namespace WindowsFormsApp1
 
                     textBox1.Text += Error_Codes.M1_s + Error_Codes.E_spase; ;
                     HW.HW_error_state |= (1 << 22);
+                    dataGridView2.Rows[11].Cells[1].Value = "Error";
+
 
                 }
+                
+                  
+                else
+                    dataGridView2.Rows[11].Cells[1].Value = "OK";
             }
             if (set.Version == 1 )
             {
@@ -207,8 +223,11 @@ namespace WindowsFormsApp1
 
                     textBox1.Text += Error_Codes.M1_s + Error_Codes.E_spase; ;
                     HW.HW_error_state |= (1 << 22);
+                    dataGridView2.Rows[11].Cells[1].Value = "Error";
 
                 }
+                else
+                    dataGridView2.Rows[11].Cells[1].Value = "OK";
             }
 
             if (set.Version == 2)
@@ -220,8 +239,11 @@ namespace WindowsFormsApp1
 
                     textBox1.Text += Error_Codes.M1_s + Error_Codes.E_spase; ;
                     HW.HW_error_state |= (1 << 22);
+                    dataGridView2.Rows[11].Cells[1].Value = "Error";
 
                 }
+                else
+                    dataGridView2.Rows[11].Cells[1].Value = "OK";
             }
             if (set.Version == 3)
             {
@@ -232,8 +254,11 @@ namespace WindowsFormsApp1
 
                     textBox1.Text += Error_Codes.M1_s + Error_Codes.E_spase; ;
                     HW.HW_error_state |= (1 << 22);
+                    dataGridView2.Rows[11].Cells[1].Value = "Error";
 
                 }
+                else
+                    dataGridView2.Rows[11].Cells[1].Value = "OK";
             }
             if ((HW.Vbat_Supply & (0x1 << 15)) == 1 && HW.Vbat_Supply < 1500)
             {
@@ -506,7 +531,7 @@ namespace WindowsFormsApp1
             int result = 0;
             int UOffs;
 
-            for (UOffs = 0; UOffs < 12; UOffs++)
+            for (UOffs = 0; UOffs < 11; UOffs++)
             {
                 result = (int)HW.HW_error_state & (1 << UOffs);
                 if (result != 0)

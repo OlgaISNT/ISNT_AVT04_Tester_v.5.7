@@ -59,7 +59,7 @@ void DefaultCFGx01(/*sys_config *cfg*/);
 void Print_Loading();
 /* USER CODE END EFP */
 
-#define ISNT_AUDIO_COEFF 16
+#define ISNT_AUDIO_COEFF 16// 16 c динамиком
 #define AVT04_AUDIO_COEFF 32
 /* Private defines -----------------------------------------------------------*/
 #define BUTTON_ON     GPIO_PIN_13
@@ -108,8 +108,8 @@ void Print_Loading();
 #define  KL3016VADC_MAX  4000
 
 
-#define  KL3016VADC_CUR_MIN  230
-#define  KL3016VADC_CUR_MAX  4500
+#define  KL3016VADC_CUR_MIN  110    ///  new 25.04
+#define  KL3016VADC_CUR_MAX  600     ///
 
 #define   KL3016V_MIN 700
 #define   KL3016V_MAX  900

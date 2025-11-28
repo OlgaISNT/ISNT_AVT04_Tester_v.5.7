@@ -56,10 +56,10 @@ Core/Src/Adc_audio_fft.o: ../Core/Src/Adc_audio_fft.c \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
- C:/Users/olgas/projects/chery/ISNT_AVT04_Tester_v.5.7_git/Cherry_Project\ FreeRTOS/Drivers/CMSIS/DSP/Include/arm_math.h \
- C:/Users/olgas/projects/chery/ISNT_AVT04_Tester_v.5.7_git/Cherry_Project\ FreeRTOS/Drivers/CMSIS/DSP/Include/arm_const_structs.h \
- C:/Users/olgas/projects/chery/ISNT_AVT04_Tester_v.5.7_git/Cherry_Project\ FreeRTOS/Drivers/CMSIS/DSP/Include/arm_math.h \
- C:/Users/olgas/projects/chery/ISNT_AVT04_Tester_v.5.7_git/Cherry_Project\ FreeRTOS/Drivers/CMSIS/DSP/Include/arm_common_tables.h
+ C:/Users/olgas/projects/chery/ISNT_AVT04_Tester_v.5.9.5_git/Cherry_Project\ FreeRTOS/Drivers/CMSIS/DSP/Include/arm_math.h \
+ C:/Users/olgas/projects/chery/ISNT_AVT04_Tester_v.5.9.5_git/Cherry_Project\ FreeRTOS/Drivers/CMSIS/DSP/Include/arm_const_structs.h \
+ C:/Users/olgas/projects/chery/ISNT_AVT04_Tester_v.5.9.5_git/Cherry_Project\ FreeRTOS/Drivers/CMSIS/DSP/Include/arm_math.h \
+ C:/Users/olgas/projects/chery/ISNT_AVT04_Tester_v.5.9.5_git/Cherry_Project\ FreeRTOS/Drivers/CMSIS/DSP/Include/arm_common_tables.h
 
 ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 
@@ -181,10 +181,10 @@ Core/Src/Adc_audio_fft.o: ../Core/Src/Adc_audio_fft.c \
 
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h:
 
-C:/Users/olgas/projects/chery/ISNT_AVT04_Tester_v.5.7_git/Cherry_Project\ FreeRTOS/Drivers/CMSIS/DSP/Include/arm_math.h:
+C:/Users/olgas/projects/chery/ISNT_AVT04_Tester_v.5.9.5_git/Cherry_Project\ FreeRTOS/Drivers/CMSIS/DSP/Include/arm_math.h:
 
-C:/Users/olgas/projects/chery/ISNT_AVT04_Tester_v.5.7_git/Cherry_Project\ FreeRTOS/Drivers/CMSIS/DSP/Include/arm_const_structs.h:
+C:/Users/olgas/projects/chery/ISNT_AVT04_Tester_v.5.9.5_git/Cherry_Project\ FreeRTOS/Drivers/CMSIS/DSP/Include/arm_const_structs.h:
 
-C:/Users/olgas/projects/chery/ISNT_AVT04_Tester_v.5.7_git/Cherry_Project\ FreeRTOS/Drivers/CMSIS/DSP/Include/arm_math.h:
+C:/Users/olgas/projects/chery/ISNT_AVT04_Tester_v.5.9.5_git/Cherry_Project\ FreeRTOS/Drivers/CMSIS/DSP/Include/arm_math.h:
 
-C:/Users/olgas/projects/chery/ISNT_AVT04_Tester_v.5.7_git/Cherry_Project\ FreeRTOS/Drivers/CMSIS/DSP/Include/arm_common_tables.h:
+C:/Users/olgas/projects/chery/ISNT_AVT04_Tester_v.5.9.5_git/Cherry_Project\ FreeRTOS/Drivers/CMSIS/DSP/Include/arm_common_tables.h:

@@ -106,7 +106,7 @@ namespace WindowsFormsApp1
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(765, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(774, 24);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -382,7 +382,7 @@ namespace WindowsFormsApp1
             this.tabControl1.Location = new System.Drawing.Point(32, 27);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(706, 507);
+            this.tabControl1.Size = new System.Drawing.Size(703, 507);
             this.tabControl1.TabIndex = 45;
             // 
             // tabPage1
@@ -392,7 +392,7 @@ namespace WindowsFormsApp1
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(698, 481);
+            this.tabPage1.Size = new System.Drawing.Size(695, 481);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "ISNT/AVT04 Test";
             // 
@@ -402,7 +402,7 @@ namespace WindowsFormsApp1
             this.tabPage2.Controls.Add(this.dataGridView2);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Size = new System.Drawing.Size(698, 481);
+            this.tabPage2.Size = new System.Drawing.Size(695, 481);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "ISNT/AVT04 Settings";
             // 
@@ -607,13 +607,13 @@ namespace WindowsFormsApp1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.CausesValidation = false;
-            this.ClientSize = new System.Drawing.Size(765, 585);
+            this.ClientSize = new System.Drawing.Size(774, 585);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "ISNT/AVT04 Tester v.5.7";
+            this.Text = "ISNT/AVT04 Tester v.5.9.5_5";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Shown += new System.EventHandler(this.Form1_Shown);

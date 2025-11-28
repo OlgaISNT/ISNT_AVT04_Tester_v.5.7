@@ -199,7 +199,7 @@ sys_events Evnt;
  					vTaskDelay(TIMEOUT_1s);
  					Init_Pins();
  				//	vTaskDelay(TIMEOUT_1s);
- 					vTaskDelay(50);
+ 					vTaskDelay(500);
  					  Print_Loading();
  					  memset(rxbuf, 0 , sizeof(rxbuf));
         			vTaskDelay(50);

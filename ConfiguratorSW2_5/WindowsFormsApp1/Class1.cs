@@ -25,6 +25,7 @@ namespace WindowsFormsApp1
         public UInt32 Audio_Test;
         public String SN_str;
         public String ICCID_str;
+        public String SN_1_str;
     }
       public class state{
      
@@ -40,7 +41,7 @@ namespace WindowsFormsApp1
           public const int Mute_Limit_ISNT_PLUS_MAX = 4000;
 
           public const int Mute_Limit_ISNT_MIN_MIN = 200;
-          public const int Mute_Limit_ISNT_MIN_MAX = 450;
+          public const int Mute_Limit_ISNT_MIN_MAX = 500;
 
           public const int Mute_Limit_ISNT_MIN = 400;
          public const int Uart_Timeout = 20000;
@@ -89,7 +90,8 @@ namespace WindowsFormsApp1
         public UInt32 Audio_Test;
         public UInt32 Net_Num;
         public UInt32 f1;
-       
+        public UInt32 wdt;
+        public UInt32 wdt_timer;
         public UInt32 mute_adc;
 
    

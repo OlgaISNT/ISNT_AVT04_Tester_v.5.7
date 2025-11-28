@@ -40,6 +40,9 @@
 #define TIMEOUT_30s 30000
 #define TIMEOUT_40s 40000
 #define TIMEOUT_50s 50000
+#define TIMEOUT_60s 60000
+#define TIMEOUT_70s 70000
+#define TIMEOUT_100s 100000
 //#define STmin 10
 #define N_As  25
 #define  STATUS_SUCCESS 0
@@ -301,6 +304,7 @@ typedef enum Gpio_test_byte {
 		            AVT_GSM_Cmd = 1,
 		            AVT_GPS_Cmd  = 2,
 		            AVT_Audio_Cmd   = 3,
+					AVT_Wdt = 4
 
 		}AVT_cmd;
 
@@ -473,6 +477,9 @@ typedef enum{
  	uint8_t IMSI[8];
  	uint8_t GSM_IMEI[8];
  	uint8_t SRN[16];
+ 	bool wdt;
+ 	uint32_t wdt_timer;
+ 	uint32_t wdt_timer_start;
 
 
 
@@ -624,4 +631,5 @@ void uaprintf(uint8_t test , uint8_t ch ,  uint8_t *lpPack);
 void set_uint32(unsigned char* lpDestBuf, const uint32_t ulVal, bool endian);
 uint32_t get_uint32( const unsigned char* lpBuf, _Bool endian);
 void Hex_Str(unsigned char hex, unsigned char *str);
+bool check_wdt_timer();
 #endif // __UDS_H__

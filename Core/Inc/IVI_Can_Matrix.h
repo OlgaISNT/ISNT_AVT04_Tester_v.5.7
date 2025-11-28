@@ -58,7 +58,7 @@
  //fft_Adc_pResult_q15 fft_pResult
 
 #define  fft_Real_Amp_min    3000
-#define  fft_pResult_f1_min  1000
+#define  fft_pResult_f1_min  980
 #define  fft_pResult_f1_max  1100
 
  typedef struct {

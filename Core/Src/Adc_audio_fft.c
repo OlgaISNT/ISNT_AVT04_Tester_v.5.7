@@ -20,7 +20,8 @@
 
 //#define TEST_LENGTH_SAMPLES 2048
 #define fft_Freq_step 41.764
-#define fft_Freq_offset 3
+//#define fft_Freq_offset_left 3
+//#define fft_Freq_offset_righ 3
 
 #include <arm_math.h> //подключаем библиотеку
 //указываем размер FFT
@@ -53,6 +54,9 @@ arm_rfft_instance_q15 S;
 	fft_pResult.fft_Real_Idxm3 =0;
 	fft_pResult.fft_Real_Nm3 =0;
 	fft_pResult.estimate = 0;
+
+  uint8_t  fft_Freq_offset_righ  = 3;
+  uint8_t  fft_Freq_offset_left  = 3;
    status = arm_rfft_init_q15(&S, FFT_SIZE, 0, 1);//функция инициализации необходима для БФП
 
  if(status == ARM_MATH_SUCCESS)
@@ -71,28 +75,41 @@ arm_rfft_instance_q15 S;
    arm_max_q15(  &fft_pResult.fft_DAmp[1],  (uint32_t) (FFT_SIZE /2) ,   &fft_pResult.fft_Real_Nm1,
 		         &fft_pResult.fft_Real_Idxm1);
 
-   fft_pResult.fft_Real_Pos1 = fft_pResult.fft_Real_Idxm1 + fft_Freq_offset;
+   if(fft_pResult.fft_Real_Idxm1 >= 26)
+	   fft_Freq_offset_righ =3;
+	   else
+		   fft_Freq_offset_righ = 5;
 
+   fft_pResult.fft_Real_Pos1 = fft_pResult.fft_Real_Idxm1 + fft_Freq_offset_righ;
 
       arm_max_q15(  &fft_pResult.fft_DAmp[ fft_pResult.fft_Real_Pos1],   (FFT_SIZE - fft_pResult.fft_Real_Pos1),
     		     &fft_pResult.fft_Real_Nm2,
    		         &fft_pResult.fft_Real_Idxm2);
 
-      if(fft_pResult.fft_Real_Idxm1 > fft_Freq_offset)
-      arm_max_q15(  &fft_pResult.fft_DAmp[1],  ( fft_pResult.fft_Real_Idxm1 - fft_Freq_offset),
+      if(fft_pResult.fft_Real_Idxm1 > fft_Freq_offset_left)
+      arm_max_q15(  &fft_pResult.fft_DAmp[1],  ( fft_pResult.fft_Real_Idxm1 - fft_Freq_offset_left),
          		     &fft_pResult.fft_Real_Nm3,
         		         &fft_pResult.fft_Real_Idxm3);
 
       fft_pResult.f1 =  (uint32_t)fft_Freq_step * fft_pResult.fft_Real_Idxm1 ;      // 46 mks for 23.944   41.764
 
 
-    		if (fft_pResult.fft_Real_Nm1 > (7 * fft_pResult.fft_Real_Nm2 /6)
+   	/*if (fft_pResult.fft_Real_Nm1 > (7 * fft_pResult.fft_Real_Nm2 /6)
     				&& fft_pResult.fft_Real_Nm1 > (7 * fft_pResult.fft_Real_Nm3 /6)
     	            &&(fft_pResult.fft_Real_Nm1  > fft_Real_Amp_min)
     	         	&& (fft_pResult.f1 > fft_pResult_f1_min)
     		         &&(fft_pResult.f1 < fft_pResult_f1_max))
 
     	 fft_pResult.estimate = 1;
+*/
+
+;    if (fft_pResult.fft_Real_Nm1 > ( 5 * fft_pResult.fft_Real_Nm2/4 )
+          				&& fft_pResult.fft_Real_Nm1 > ( 5 *fft_pResult.fft_Real_Nm3/4)
+          	            &&(fft_pResult.fft_Real_Nm1  > fft_Real_Amp_min)
+          	         	&& (fft_pResult.f1 > fft_pResult_f1_min)
+          		         &&(fft_pResult.f1 < fft_pResult_f1_max))
+
+          	 fft_pResult.estimate = 1;
 
 
    return true;

@@ -37,7 +37,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolBar;
 using System.Diagnostics.Eventing.Reader;
 using System.Reflection;
 
-
+////Form designer = shift f7
 namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
@@ -234,7 +234,9 @@ UInt64 strToU64(UInt32[] data_in, int len , int offs)
         {
             if (S.Contains("Finish"))
             {
-                Clear_Form();
+                //   Clear_Form();
+             
+              //  textBox8.Text += "\r\nTCU Switch OFF...";
                 this.Start = state.Start_Test;
             }
             if (S.Contains("Next"))
@@ -253,6 +255,7 @@ UInt64 strToU64(UInt32[] data_in, int len , int offs)
             switch (this.Start)
             {
                 case state.Start_Test:
+                     
                     try
                     {
 
@@ -345,7 +348,15 @@ UInt64 strToU64(UInt32[] data_in, int len , int offs)
                     string s3 = port.ReadExisting();
                     uOffs = 4;
                 
-                    Power_Monitor(s3);
+                   // Power_Monitor(s3);
+                    if (s3.Contains("Finish"))
+                    {
+                        //   Clear_Form();
+
+                          textBox8.Text += s3;
+                        this.Start = state.Start_Test;
+                    }
+
                     if (s3.Contains("AVT1"))
                     {
 
@@ -366,13 +377,36 @@ UInt64 strToU64(UInt32[] data_in, int len , int offs)
                         textBox8.Text += "\r\nAudio Record...\r\n";
                 
                     }
+                    if (s3.Contains("AVT4"))
+                    {
+                        textBox8.Text += "WDT Test";
+                        HW.wdt = (UInt32)Convert.ToInt32(s3[uOffs ]);//(Byte)Rx.UbyteArray[uOffs];
+                        if (HW.wdt == 1)
+                            textBox8.Text += "\r\nWDT OK\r\n";
+                        else
+                        {
+                            textBox8.Text += "\r\nWDT NO\r\n";
 
-                    if (s3.Contains("Play"))
+                        }
+                        uOffs += 1;
+                        HW.wdt_timer = //Rx.UbyteArray[uOffs] | (Rx.UbyteArray[uOffs + 1] << 8);
+                        (UInt32)Convert.ToInt32(s3[uOffs +1 ] | (UInt32)Convert.ToInt32(s3[uOffs ] << 8) );
+
+            //                   textBox8.Text += "Time = ";
+           //             textBox8.Text += Convert.ToInt32(HW.wdt_timer/1000).ToString();
+            //          textBox8.Text += "s\r\n";
+            //           uOffs += 4;
+                        this.Start = state.Errors_Test;
+                        Error_set = Validate_Settings();
+
+                    }
+                      if (s3.Contains("Play"))
+                 //   if (s3.Contains("AVT3"))
                     {
 
                         textBox8.Text += s3;
-                        Thread.Sleep(6000);
-                        port.ReadTimeout = 20000;
+                        Thread.Sleep(5000);
+                        port.ReadTimeout = 30000;
                         bytes = 0;
                         try
                         {
@@ -380,8 +414,8 @@ UInt64 strToU64(UInt32[] data_in, int len , int offs)
                             {
                                 Rx.UbyteArray[bytes] = (UInt32)port.ReadByte();
                                 bytes += 1;
-                            } while (bytes < state.SW_Lenght);
-
+                            } while (bytes < state.SW_Lenght -1 );
+                   
                             uOffs = 4;
                             HW.estimate = (Byte)Rx.UbyteArray[uOffs];
                             uOffs += 1;
@@ -412,9 +446,13 @@ UInt64 strToU64(UInt32[] data_in, int len , int offs)
                             textBox8.Text += Convert.ToInt32(HW.f1).ToString();
                             textBox8.Text += "Hz\r\n";
 
-                            Error_set = Validate_Settings();
+                        
 
-                            this.Start = state.Errors_Test;
+
+
+
+
+                           
                         }
                         catch (TimeoutException ex)
                         {
@@ -438,6 +476,8 @@ UInt64 strToU64(UInt32[] data_in, int len , int offs)
            
                     break;
                 case state.Errors_Test:
+
+
 
                     if (/*(Error_set == 0) &&*/ (HW.HW_error_state == 0))
                     {
@@ -488,35 +528,47 @@ UInt64 strToU64(UInt32[] data_in, int len , int offs)
 
 
                 // Read_Scanner_Monitor();
+                int Scan = Read_Scanner_Monitor();
+                switch (Scan) {
+                    case 1:
+                        //    if (Scan == 1)
+                        //  Read_Scanner_Monitor();
+                        //{
+                        try
+                        {
 
-                if (Read_Scanner_Monitor() == true)
-                //  Read_Scanner_Monitor();
-                {
-                    try
-                    {
+                            Thread.Sleep(50);
+                            Rx.Start_timer = 0;
 
-                        Thread.Sleep(50);
-                        Rx.Start_timer = 0;
+                            string s = "StartV ";
+                            s += set.Version.ToString();
+                            port.WriteLine(s);
+                            Thread.Sleep(50);
+                            port.WriteLine(s);
+                            timer1.Enabled = true;
+                            timer1.Start();
+                            this.Start = state.HW_Test;
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show(ex.Message + "\nPort " + port.PortName /*+ " Unavailable"*/);
+                            //  return false;
+                        }
+                        break;
+                    // read_monitor
+                    case -1:     //   not found  else if (Scan == -1)
 
-                        string s = "StartV ";
-                        s += set.Version.ToString();
-                        port.WriteLine(s);
-                        Thread.Sleep(50);
-                        port.WriteLine(s);
-                        timer1.Enabled = true;
-                        timer1.Start();
-                        this.Start = state.HW_Test;
-                    }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show(ex.Message + "\nPort " + port.PortName /*+ " Unavailable"*/);
-                        //  return false;
-                    }
-                }   // read_monitor
-                else
-                {
-                    textBox8.Text += "Sticker not Found\r\n";
-                    textBox8.Text += " \r\n";
+
+                       textBox8.Text += "Sticker not Found\r\n";
+                        textBox8.Text += " \r\n";
+                        break;
+                    case 0:    // wrong
+
+                        // textBox8.Text += "Wrong\r\n";
+                        //   textBox8.Text += " \r\n";
+                     //   this.Start = state.Errors_Test;
+                        Thread.Sleep(500);
+                        break;
                 }
 
             }    ///port_is_open

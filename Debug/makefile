@@ -66,8 +66,8 @@ all: main-build
 main-build: ISNT_AVT04_Tester.elf secondary-outputs
 
 # Tool invocations
-ISNT_AVT04_Tester.elf: $(OBJS) $(USER_OBJS) C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.7_git\Cherry_Project\ FreeRTOS\STM32F429ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "ISNT_AVT04_Tester.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.7_git\Cherry_Project FreeRTOS\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ISNT_AVT04_Tester.map" -Wl,--gc-sections -static -L"C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.7_git\Cherry_Project FreeRTOS\Drivers\CMSIS\DSP\Lib\GCC" -L"C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.7_git\Cherry_Project FreeRTOS\Drivers\CMSIS\DSP\Lib\ARM" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+ISNT_AVT04_Tester.elf: $(OBJS) $(USER_OBJS) C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.9.5_git\Cherry_Project\ FreeRTOS\STM32F429ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "ISNT_AVT04_Tester.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.9.5_git\Cherry_Project FreeRTOS\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ISNT_AVT04_Tester.map" -Wl,--gc-sections -static -L"C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.9.5_git\Cherry_Project FreeRTOS\Drivers\CMSIS\DSP\Lib\GCC" -L"C:\Users\olgas\projects\chery\ISNT_AVT04_Tester_v.5.9.5_git\Cherry_Project FreeRTOS\Drivers\CMSIS\DSP\Lib\ARM" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
