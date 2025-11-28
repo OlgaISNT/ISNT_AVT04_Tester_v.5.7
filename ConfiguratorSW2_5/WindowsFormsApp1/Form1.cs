@@ -489,7 +489,7 @@ UInt64 strToU64(UInt32[] data_in, int len , int offs)
 
                 // Read_Scanner_Monitor();
 
-                if (Read_Scanner_Monitor() == true)
+             //   if (Read_Scanner_Monitor() == true)
                 //  Read_Scanner_Monitor();
                 {
                     try
@@ -513,11 +513,11 @@ UInt64 strToU64(UInt32[] data_in, int len , int offs)
                         //  return false;
                     }
                 }   // read_monitor
-                else
+            /*    else
                 {
                     textBox8.Text += "Sticker not Found\r\n";
                     textBox8.Text += " \r\n";
-                }
+                }*/
 
             }    ///port_is_open
                 else

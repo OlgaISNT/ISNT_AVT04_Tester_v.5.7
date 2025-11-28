@@ -208,7 +208,7 @@ void Can_Task(void const * argument) {
 
 
 	     case  	Get_Microphone_ADC:
-	   //   if(CAN_UDS_Diagnostic_Req_Send(&message, OBD2_CMD_READ , P99_group , Get_Microphone_ADC,  3))    //0x6
+	 //     if(CAN_UDS_Diagnostic_Req_Send(&message, OBD2_CMD_READ , P99_group , Get_Microphone_ADC,  3))    //0x6
 	     	    	 	Can_state.state +=1;
 	     	    		   	    	 break;
 
@@ -217,7 +217,7 @@ void Can_Task(void const * argument) {
 	   	   	Can_state.state +=1;
 	   	 	 break;
 	     case  	Get_BATTERY_ADC :
-	     	   //	    if(CAN_UDS_Diagnostic_Req_Send(&message, OBD2_CMD_READ , P99_group , Get_BATTERY_ADC,  3))  // 0x8
+	     //	   	    if(CAN_UDS_Diagnostic_Req_Send(&message, OBD2_CMD_READ , P99_group , Get_BATTERY_ADC,  3))  // 0x8
 	     	 Can_state.state +=1;
 
 	     	   	   break;
